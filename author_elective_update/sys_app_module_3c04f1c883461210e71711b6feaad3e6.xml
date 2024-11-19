@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Org#">5513653283f5d210e71711b6feaad30e</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Org#s</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_createnotes_org</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_snc_createnotes.org_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 19:11:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3c04f1c883461210e71711b6feaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Org#s</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_update_name>sys_app_module_3c04f1c883461210e71711b6feaad3e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-18 19:11:16</sys_updated_on>
+        <timeline_page/>
+        <title>Org#s</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</application>
+        <file_path/>
+        <instance_id>a78177961b09ca94c82acb7b234bcbe4</instance_id>
+        <instance_name>dev248653</instance_name>
+        <name>sys_app_module_3c04f1c883461210e71711b6feaad3e6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Org#">5513653283f5d210e71711b6feaad30e</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Org#s</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_createnotes_org</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_snc_createnotes.org_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-18 19:11:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3c04f1c883461210e71711b6feaad3e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Org#s</sys_name><sys_overrides/><sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package><sys_policy/><sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope><sys_update_name>sys_app_module_3c04f1c883461210e71711b6feaad3e6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-18 19:11:16</sys_updated_on><timeline_page/><title>Org#s</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-2033518843</payload_hash>
+        <record_name>Org#s</record_name>
+        <reverted_from/>
+        <source>7f4a35c783b11210e71711b6feaad331</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 19:11:16</sys_created_on>
+        <sys_id>7804f1c883461210e71711b6feaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19340afb36a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-18 19:11:16</sys_updated_on>
+        <type>Module</type>
+        <update_guid>3c04f1c88f461210a8863313f598d9e9</update_guid>
+        <update_guid_history>3c04f1c88f461210a8863313f598d9e9:-2033518843</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Org#s">a595394c83461210e71711b6feaad3aa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 19:18:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1652fb9c6ca64c95873b515a609951f9</sys_id>
+        <sys_metadata>3c04f1c883461210e71711b6feaad3e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Org#s</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_scope_delete display_value="">64daa03572704d49a928bf08a985d6f9</sys_scope_delete>
+        <sys_update_name>sys_app_module_3c04f1c883461210e71711b6feaad3e6</sys_update_name>
+        <sys_update_version display_value="sys_app_module_3c04f1c883461210e71711b6feaad3e6">7804f1c883461210e71711b6feaad3ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-18 19:18:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

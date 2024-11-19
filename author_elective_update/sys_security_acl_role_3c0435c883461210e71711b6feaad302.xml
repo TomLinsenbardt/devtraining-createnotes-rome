@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 19:11:17</sys_created_on>
+        <sys_id>3c0435c883461210e71711b6feaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_createnotes_org.x_snc_createnotes.org_user</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_security_acl display_value="x_snc_createnotes_org">7804f1c883461210e71711b6feaad3ff</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3c0435c883461210e71711b6feaad302</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-18 19:11:17</sys_updated_on>
+        <sys_user_role display_value="x_snc_createnotes.org_user" name="x_snc_createnotes.org_user">ac04f18883461210e71711b6feaad353</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</application>
+        <file_path/>
+        <instance_id>a78177961b09ca94c82acb7b234bcbe4</instance_id>
+        <instance_name>dev248653</instance_name>
+        <name>sys_security_acl_role_3c0435c883461210e71711b6feaad302</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-18 19:11:17</sys_created_on><sys_id>3c0435c883461210e71711b6feaad302</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_createnotes_org.x_snc_createnotes.org_user</sys_name><sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package><sys_policy/><sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope><sys_security_acl display_value="x_snc_createnotes_org">7804f1c883461210e71711b6feaad3ff</sys_security_acl><sys_update_name>sys_security_acl_role_3c0435c883461210e71711b6feaad302</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-18 19:11:17</sys_updated_on><sys_user_role display_value="x_snc_createnotes.org_user" name="x_snc_createnotes.org_user">ac04f18883461210e71711b6feaad353</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1971950314</payload_hash>
+        <record_name>x_snc_createnotes_org.x_snc_createnotes.org_user</record_name>
+        <reverted_from/>
+        <source>7f4a35c783b11210e71711b6feaad331</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 19:11:17</sys_created_on>
+        <sys_id>890435c883461210e71711b6feaad305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19340afb5c30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-18 19:11:17</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>8d0435c84146121027242e6d053e7704</update_guid>
+        <update_guid_history>8d0435c84146121027242e6d053e7704:-1971950314</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_createnotes_org.x_snc_createnotes.org_user">6d95394c83461210e71711b6feaad389</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 19:18:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>38a50e8553794937b334a473ac0ee959</sys_id>
+        <sys_metadata>3c0435c883461210e71711b6feaad302</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_createnotes_org.x_snc_createnotes.org_user</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_parent display_value="">7804f1c883461210e71711b6feaad3ff</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_scope_delete display_value="">64daa03572704d49a928bf08a985d6f9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_3c0435c883461210e71711b6feaad302</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_3c0435c883461210e71711b6feaad302">890435c883461210e71711b6feaad305</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-18 19:18:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
