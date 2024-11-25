@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>data_table_distinct</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Data Table Distinct</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+		//query your values
+    var loc_codes = new GlideRecord('x_snc_dcph_databas_location_codes');
+    //loc_codes.addQuery('loc_code','NOT','');
+    loc_codes.query();
+	
+    while (loc_codes.next()) {
+		//push your values to the data object
+        var locObj = {};
+        locObj.loc_code = loc_codes.loc_cd.toString();
+				locObj.loc_long_desc = loc_codes.loc_long_desc.toString();
+				locObj.addr_line_1 = loc_codes.addr_line_1.toString();
+				locObj.addr_line_2 = loc_codes.addr_line_2.toString();
+				locObj.city_name = loc_codes.city_name.toString();
+				locObj.cnty_cd = loc_codes.cnty_cd.toString();
+				locObj.st_cd = loc_codes.st_cd.toString();
+				locObj.zip_prefix = loc_codes.zip_prefix.toString();
+        data.loc_codes.push(locObj);
+
+    }
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 16:51:17</sys_created_on>
+        <sys_id>8c9d92d8830e5210e71711b6feaad322</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Data Table Distinct</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_update_name>sp_widget_8c9d92d8830e5210e71711b6feaad322</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 17:43:49</sys_updated_on>
+        <template><![CDATA[<div>
+
+  <table>
+    <tr>
+      <th>LOC CODE</th>
+      <th>DLONG DESC</th>
+      <th>ADDRESS LINE 1</th>
+      <th>ADDRESS LINE 2</th>
+      <th>CITY</th>
+      <th>COUNTY CODE LINE 1</th>
+      <th>STATE</th>
+      <th>ZIP CODE</th>
+
+    </tr>
+    <tr ng-repeat="loc in c.data.loc_codes">
+      <td>loc.loc_code</td>
+      <td>loc.loc_long_desc</td>
+      <td>loc.addr_line_1</td>
+      <td>loc.addr_line_2</td>
+      <td>loc.city_name</td>
+      <td>loc.cnty_cd</td>
+      <td>loc.st_cd</td>
+      <td>loc.zip_prefix</td>
+    </tr>
+  </table>
+
+</div>]]></template>
+    </sp_widget>
+</record_update>
